@@ -7,6 +7,7 @@
   "author": {
     "name": "David Kalu"
   },
+  "homepage": "http://ifeanyidavid.github.io/random-name-generator",
   "keywords": [
     "app",
     "react",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.1.0",
@@ -45,6 +48,7 @@
     "@types/react-redux": "^7.1.5",
     "@types/shortid": "^0.0.29",
     "@types/styled-components": "^4.4.1",
+    "gh-pages": "^2.1.1",
     "react-redux": "^7.1.3",
     "react-scripts": "3.2.0",
     "typesafe-actions": "^5.1.0",
