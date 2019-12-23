@@ -29,7 +29,7 @@ const Form = (props: AppFormInterface) => {
                 text: formState,
             }
 
-            // Create new  item
+            // Create new item
             props.handleNameCreate(newName)
 
             // Reset the input field

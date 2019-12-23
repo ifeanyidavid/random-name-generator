@@ -40,7 +40,6 @@ const AppContainer: React.FC<AppContainerProps> = (props: AppContainerProps) => 
 
   const handleNameRemove = (id: string) => {
     const { deleteName } = props;
-
     deleteName(id);
   }
 
